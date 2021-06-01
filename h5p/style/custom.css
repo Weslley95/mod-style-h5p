@@ -1,0 +1,25 @@
+.h5p-slider {
+    background: green;
+}
+
+.h5p-joubelui-button {
+    background: deeppink !important;
+}
+
+.h5p-question {
+    background: rgb(208 13 13 / 90%);
+    position: relative;
+}
+
+.h5p-text-dialog {
+    background: #863131 !important;
+    max-width: 45% !important;
+}
+
+.h5p-interaction-button .nav-button {
+    background: #821b7e !important;
+}
+
+.nav-button {
+    background: #0f6fc5 !important;
+}
