@@ -1,5 +1,6 @@
-# mod-style-h5p
-Change css and js h5p
+## mod-style-h5p
+
+## 🎨 Customization for h5p css and js
 
 ## ⚙️ Functionality
 
@@ -7,26 +8,25 @@ Change css and js h5p
 - [x] Change default css styles
 - [x] Change js functions
 
-## 🚀 How to use
-
-Comtém apenas um arquivo:
+## 🛠 How to use
 
 1. Clone the repository to your theme folder
+<pre>
 https://github.com/Weslley95/mod-style-h5p.git
-  
+</pre>
 2. Leave the h5p folder and the renderers file inside your theme folder
 
 <pre>
-moodle
+moodle/
 ├── ...                                
-├── theme                            
-|   ├── theme                         
-|   │   ├── h5p                        
-|   |   │   ├── js                     
+├── theme/                            
+|   ├── theme/                         
+|   │   ├── h5p/                        
+|   |   │   ├── js/                     
 |   |   |   │   ├── custom.js          
 |   |   |   │   ├── customEditor.js    
 |   |   |   |   └── ...                
-|   |   │   ├── style<br>                  
+|   |   │   ├── style/                  
 |   |   |   │   ├── custom.js          
 |   |   |   |   └── ...                
 |   |   |   └── ...                    
@@ -35,3 +35,8 @@ moodle
 │   └── ...                            
 └── ...                                
 </pre>
+
+💡 If you are using moodle lower than version 3.9, it is recommended to remove the class theme_trema_core_h5p_renderer from the renderers.php file and use only the class theme_trema_mod_hvp_renderer.
+
+## 📝 Licença
+Licença [MIT](./LICENSE).
